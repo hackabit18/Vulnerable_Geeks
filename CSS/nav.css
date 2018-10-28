@@ -1,0 +1,42 @@
+body{
+    background-color:white;
+}
+ul{
+    list-style-type: none;
+    margin: -6px;
+    padding: 0;
+    background-color:darkslategray;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin: 5px;
+    padding: 2px 5px;
+    font-size: 1.2em;
+    
+}
+li a{
+    display:block;
+    color: peru;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 4px;
+/*    background-color:lightcyan;*/
+}
+li a:hover{
+    background-color: lightblue;
+}
+
+.righty{
+    
+    float:right;
+}
+.active{
+    background-color: palegoldenrod;
+}
+
+
+
+
+
+

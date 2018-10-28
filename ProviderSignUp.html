@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center" >Sign Up as a Provider</h2>
+<p style="text-align: center">Please Click on as what you want to Provide to the User</p>
+
+<div class="row">
+  <div class="column">
+      <h1>Carpenter</h1>
+    <img src="Images/carpentry.jpg" alt="Carpentry" style="width:100%" height="80%">
+  </div>
+  <div class="column">
+      <h1>Electrician</h1>
+    <img src="Images/electrician1.jpg" alt="Electrician" style="width:100%" height="80%">
+  </div>
+  <div class="column">
+      <h1>Plumber</h1>
+    <img src="Images/plumber.jpg" alt="Plumber" style="width:100%" height="60%">
+  </div>
+</div>
+    
+    <div class="row">
+  <div class="column">
+      <h1>Painter</h1>
+    <img src="Images/painter.jpg" alt="Painter" style="width:100%" height="80%">
+  </div>
+  <div class="column">
+      <h1>Maintenance</h1>
+    <img src="Images/maintenanace.jpg" alt="Maintenance" style="width:100%" height="40%">
+  </div>
+  <div class="column">
+      <h1>Carpenter</h1>
+    <img src="Images/plumber.jpg" alt="Plumber" style="width:100%" height="80%">
+  </div>
+</div>
+
+</body>
+</html>

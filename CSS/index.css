@@ -1,0 +1,77 @@
+body{
+    background:url("../Images/allinone.gif")
+    no-repeat center center fixed;
+    background-size:contain;
+}
+
+/*Navigation */
+
+ul{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    background-color:darkslategray;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin: 5px;
+    padding: 2px 5px;
+    font-size: 1.2em;
+    
+}
+li a{
+    display:block;
+    color: peru;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 4px;
+/*    background-color:lightcyan;*/
+}
+li a:hover{
+    background-color: lightblue;
+}
+
+.righty{
+    
+    float:right;
+}
+.active{
+    background-color: palegoldenrod;
+}
+
+/*Body*/
+
+
+div{
+    background-color: #f6e57b;
+    width: 70%;
+    text-align: center;
+    margin: 120px auto;
+    color: forestgreen;
+    border-radius: 25px;
+    opacity:.8;
+        
+        
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Gaegu', cursive;
+    font-family: 'Indie Flower', cursive;
+    color:purple
+}
+p{
+    font-size: 1.2em;
+    color: #7950f2;
+    color: black
+}
+button{
+    padding: 10px;
+    border-radius: 50em;
+    background-color: lightgreen;
+}
+i{
+    color: orangered;
+    font-size: 30px;
+}
